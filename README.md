@@ -5,6 +5,7 @@ Kontrol Perangkat menggunakan Saweria Webhook. (Biasanya digunakan yang konten t
 NodeJS : v16
 NPMJS
 
+* [Watch Here](https://github.com/iFika/saweria-controller/wiki/Kode-Script-Donasi) 
 ## Penggunaannya
 * [Watch Here](https://youtu.be/6jJGe0pAhGo) 
 
