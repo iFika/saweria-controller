@@ -11,7 +11,8 @@ NPMJS
 ## Kode Module yang sering digunakan (Thanks to : NutJS)
 ### Tiba-tiba Spray (SprayRandom)
 ```js
-await mouse.doubleClick(Button.LEFT);```
+await mouse.doubleClick(Button.LEFT);
+```
 ### Drop Senjata Valorant (DropValorant)
 ```js
 await keyboard.pressKey(Key.G);
@@ -23,4 +24,10 @@ await keyboard.pressKey(Key.G);
 ```
 ### Menghadap Keatas (UpMouse)
 ```js
-await mouse.move(up(10));```
+await mouse.move(up(10));
+```
+### Scroll Senjata All Games (ScrollSenjata)
+```js
+await mouse.scrollDown(5);
+await mouse.scrollUp(5);
+```
