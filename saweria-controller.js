@@ -10,7 +10,7 @@ var url_gotten = ""
 const fs = require("fs")
 var realtime_console = false;
 const path = require("path")
-const { mouse, left, right, up, down, straightTo, centerOf, Region, keyboard, Key} = require("@nut-tree/nut-js");
+const { mouse, left, right, up, down, straightTo, centerOf, Region, keyboard, Key, Button} = require("@nut-tree/nut-js");
 const localtunnel = require("localtunnel")
 const { exec } = require("child_process")
 //Loaded Module when needed variable against
@@ -31,22 +31,22 @@ app.post(`/`, function(req,res) {
         if(json.donasi == parseInt(req.body['amount_raw'])) {
           if(!fs.existsSync(`DATA/load_donasi/${json.name}.js`)) {
             console.log(`[WARN] : Donasi menu tersedia Namun Scriptnya tidak berhasil dijalankan karena tidak tersedia di Folder Load_donasi! Silakan Perbaiki terlebih dahulu.`)
-            res.status(200).send(`OK`)
           }
           else {
           fs.readFile(`DATA/load_donasi/${json.name}.js`, async(err, me) => {
 if(err) console.log(`Error!`)
 eval(me.toString())
 if(realtime_console) console.log("\x1b[42m", `[!] Permintaan ${json.name} telah dilaksanakan!`)
-res.status(200).send(`OK`)
           })
           }
         }
       }
       catch(e) {
-        res.status(200).send(`OK`)
 
       
+    }
+    if(i+1 === filter.length) {
+      res.status(200).send(`OK`)
     }
     }
   })

@@ -1,7 +1,19 @@
 {
+"name": "SaweriaCommander",
+"main": "saweria-controller.js",
+"bin": {
+"testpkg": "saweria-controller.js"
+},
   "dependencies": {
     "@nut-tree/nut-js": "^2.2.1",
     "express": "^4.18.1",
-    "localtunnel": "^2.0.2"
+    "localtunnel": "^2.0.2",
+    "pkg-natives": "^0.1.2"
+  },
+"scripts": {
+},
+  "pkg": {
+    "assets": "node_modules/@nut-tree/libnut-win32*/**/*",
+    "targets": [ "node16-win" ]
   }
 }
