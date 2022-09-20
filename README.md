@@ -2,8 +2,7 @@
 Kontrol Perangkat menggunakan Saweria Webhook. (Biasanya digunakan yang konten tentang atur permainanku misal drop senjata dan sebagainya)
 
 ## Library
-NodeJS : v16
-NPMJS
+NodeJS : v16, MSVC 2019
 
 ## Shortcut Wiki
 * [List Kode](https://github.com/iFika/saweria-controller/wiki/Kode-Script-Donasi) 
