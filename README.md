@@ -6,7 +6,7 @@ NodeJS : v16
 NPMJS
 
 ## Penggunaannya
-* [Watch Here](https://youtu.be/LA_q_BtSzXQ) 
+* [Watch Here](https://youtu.be/6jJGe0pAhGo) 
 
 ## Kode Module yang sering digunakan (Thanks to : NutJS)
 ### Tiba-tiba Spray (SprayRandom)
